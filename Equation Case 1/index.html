@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear Equation Case 1</title>
+  </head>
+  <body>
+    <a href="../Homepage.html">Homepage</a>
+    <br>
+    <a href="../Equation Case 2/index.html">Linear Equation Type 2 page</a>
+    <h1>Linear Equation Type 1</h1>
+    <br />
+    <p>The General equation of a straight line is:</p>
+
+    <math>
+      <mtr>
+        <mtd>
+          <mn>y</mn>
+        </mtd>
+        <mtd>
+          <mo>=</mo>
+        </mtd>
+        <mtd>
+          <mrow>
+            <mrow>
+              <mrow>
+                <mi>m</mi>
+                <!-- Invisible times Unicode character -->
+                <mo>&#x2062;</mo>
+                <mi>x</mi>
+              </mrow>
+              <mo>+</mo>
+              <mi>c</mi>
+            </mrow>
+          </mrow>
+        </mtd>
+      </mtr>
+    </math>
+    <p>
+      This web page shows a step by step calculation of a straight line when we
+      are given a gradient and a point that lies on the straight line
+    </p>
+    <p>
+      Type in the gradient, the x co-ordinate from the point given and the y
+      co-ordinate of the point given and click calculate to see how to calculate
+      the answer:
+    </p>
+
+    <form>
+      <label id="avalue">Value for m </label>
+      <br />
+      <input type="text" id="aforlinearequation" name="m" /><br /><br />
+
+      <label id="bvalue">Value for x co-ordinate </label>
+      <br />
+      <input type="text" id="bforlinearequation" name="x" /><br /><br />
+
+      <label id="cvalue">Value for y co-ordinate </label>
+      <br />
+      <input type="text" id="cforlinearequation" name="y" /><br /><br />
+
+      <button type="submit" id="calculateButton">Calculate</button>
+    </form>
+    <div class="answerHanger"></div>
+
+    <script class="app js" src="app.js"></script>
+  </body>
+</html>
